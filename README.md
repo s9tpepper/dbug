@@ -62,16 +62,21 @@ fn main() {
 ```
 
 ### Enable all logs
+`$ DEBUG=* cargo run`
 ![All logs](/images/all.png)
 
 ### Enable only "label" logs
+`$ DEBUG=label cargo run`
 ![All label logs](/images/label_only.png)
 
 ### Enable all logs that start with "label"
+`$ DEBUG=label* cargo run`
 ![All logs that start with label](/images/starts_with_label.png)
 
 ### Enable all logs except the ones from "label" module
+`$ DEBUG=*,-label cargo run`
 ![All logs except label](/images/all_except_label.png)
 
 ### Enable all logs except the ones that start with "label" module
+`$ DEBUG=*,-label* cargo run`
 ![All logs except starts with label](/images/all_except_starts_with_label.png)
