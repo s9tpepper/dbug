@@ -2,3 +2,6 @@
 name = "dbug"
 version = "0.0.1"
 edition = "2024"
+
+description = "A tiny Rust debugging utility that is heavily inspired by the Node.js debug module"
+license = "MIT"
